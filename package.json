@@ -1,0 +1,34 @@
+{
+  "name": "be_nodejs",
+  "version": "1.0.0",
+  "description": "pham dat BE ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trongdat01/BENODEJS.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "dat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trongdat01/BENODEJS/issues"
+  },
+  "homepage": "https://github.com/trongdat01/BENODEJS#readme",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
