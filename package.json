@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/trongdat01/BENODEJS#readme",
   "dependencies": {
-    "dotenv": "16.0.3",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.5.0",
     "ejs": "^3.1.10",
     "express": "^4.21.2",
     "fs": "^0.0.1-security",
